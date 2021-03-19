@@ -34,7 +34,7 @@ namespace ES3Types
 						instance.skillName = reader.Read<System.String>(ES3Type_string.Instance);
 						break;
 					case "graphs":
-						instance.graphs = reader.Read<System.Collections.Generic.List<UnityEngine.Vector2>>();
+						instance.graphs = reader.Read<System.Collections.Generic.List<UnityEngine.Vector3>>();
 						break;
 					case "pos":
 						instance.pos = reader.Read<System.Collections.Generic.List<UnityEngine.Vector3>>();

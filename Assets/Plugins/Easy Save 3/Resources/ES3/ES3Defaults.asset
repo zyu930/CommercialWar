@@ -33,10 +33,7 @@ MonoBehaviour:
     - Assembly-CSharp-firstpass
     - ootii
     - ootii.Demos
-    - ScriptInspector
     - ootii.Editor
-    - Heureka_GlobalAssemblyDefinition
-    - AH_AssemblyDefinition
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

@@ -6,7 +6,7 @@ using UnityEngine;
 public class SkillData
 {
 	public string skillName;
-	public List<Vector2> graphs;
+	public List<Vector3> graphs;
 	public List<Vector3> pos;
 	public List<Vector3> effects;
 	
@@ -15,7 +15,7 @@ public class SkillData
 		
 	}
 	
-	public SkillData(string skillName, List<Vector2> graphs, List<Vector3> pos, List<Vector3> effects)
+	public SkillData(string skillName, List<Vector3> graphs, List<Vector3> pos, List<Vector3> effects)
 	{
 		this.skillName = skillName;
 		this.graphs = graphs;

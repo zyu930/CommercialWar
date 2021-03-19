@@ -45,7 +45,7 @@ public class DataBase
 		}
 		return null;
 	}
-	public SkillData getSkillDataByGraph(List<Vector2> items)
+	public SkillData getSkillDataByGraph(List<Vector3> items)
 	{
 		if (sds != null && sds.Count > 0 && items != null)
 		{
@@ -59,13 +59,13 @@ public class DataBase
 						if (item.graphs[i] != items[i])
 						{
 							check = false;
-							break;
-						}
+                            goto checkGraph;
+                        }
 					}
-					if (check)
+                    checkGraph:
+                    if (check)
 					{
 						return item;
-						break;
 					}
 				}
 			}

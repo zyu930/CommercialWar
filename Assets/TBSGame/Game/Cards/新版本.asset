@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: "\u65B0\u7248\u672C"
   m_EditorClassIdentifier: 
   CardType: 4
-  ActionExpend: 3
+  ActionExpend: 1
   Title: "\u539F\u578B\u56FE 1"
   Description: "\u65B0\u7248\u672C"
   SkillName: "\u65B0\u7248\u672C"

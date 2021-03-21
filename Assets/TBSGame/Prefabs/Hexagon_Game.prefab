@@ -111,7 +111,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2288757987320671648
 Transform:
   m_ObjectHideFlags: 0
@@ -1120,7 +1120,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 2
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
@@ -2531,6 +2531,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: "\u6838\u5FC3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912875439714231066, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09f752f623dfe943a6c93ce9d8a5cc8, type: 3}

@@ -206,7 +206,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 751813218}
   m_Direction: 2
   m_Value: 1
-  m_Size: 0.8816252
+  m_Size: 0.8816253
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6343,7 +6343,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 657285757}
   m_HandleRect: {fileID: 657285756}
   m_Direction: 0
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -37903,7 +37903,7 @@ Transform:
   - {fileID: 1284190004}
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!43 &1475118159
 Mesh:
   m_ObjectHideFlags: 0
@@ -40167,6 +40167,12 @@ PrefabInstance:
       propertyPath: _data._json
       value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"ActionMax","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"AIBehaviorType","value":null,"$version":"A"},{"name":"BehaviorNotPass","value":null,"$version":"A"},{"name":"ratio1","value":{"$content":40,"$type":"System.Int32"},"$version":"A"},{"name":"ratio2","value":{"$content":20,"$type":"System.Int32"},"$version":"A"},{"name":"ratio3","value":{"$content":40,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
+    - target: {fileID: 8180417177897154834, guid: 99cff9edb141fd34c8c697134feb4ed4,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: 33f6d782988de6d499bd9f590089c0fe,
+        type: 2}
     - target: {fileID: 8180417177897154839, guid: 99cff9edb141fd34c8c697134feb4ed4,
         type: 3}
       propertyPath: m_Name
@@ -54720,36 +54726,36 @@ PrefabInstance:
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: 441ede1bd62f38e4185c9cf83a9ba5c2,
+      objectReference: {fileID: 11400000, guid: a411444591241b340ac970fed063fdab,
         type: 2}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: 5b59e5c96e2ea8c43bb77f28dfb5bad0,
+      objectReference: {fileID: 11400000, guid: 441ede1bd62f38e4185c9cf83a9ba5c2,
         type: 2}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: a411444591241b340ac970fed063fdab,
+      objectReference: {fileID: 11400000, guid: 811f231d7e1bff14ebedea163d0e1caa,
         type: 2}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: a14e4d0669c7808409dbc59c0ee0e1f8,
+      objectReference: {fileID: 11400000, guid: 5b59e5c96e2ea8c43bb77f28dfb5bad0,
         type: 2}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
@@ -54761,13 +54767,13 @@ PrefabInstance:
         type: 3}
       propertyPath: _data._objectReferences.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: a4cd62049f8fbce4ea6b2753dd14bf45,
+      objectReference: {fileID: 11400000, guid: 33f6d782988de6d499bd9f590089c0fe,
         type: 2}
     - target: {fileID: 461332677693687361, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}
       propertyPath: _data._objectReferences.Array.data[6]
       value: 
-      objectReference: {fileID: 11400000, guid: a4cd62049f8fbce4ea6b2753dd14bf45,
+      objectReference: {fileID: 11400000, guid: a14e4d0669c7808409dbc59c0ee0e1f8,
         type: 2}
     - target: {fileID: 461332677693687364, guid: 7e05a77bc13de78479010a7ab2202fa3,
         type: 3}

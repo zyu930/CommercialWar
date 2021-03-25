@@ -205,7 +205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751813219}
   m_HandleRect: {fileID: 751813218}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 1.0000005
   m_Size: 0.8816253
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -34064,7 +34064,7 @@ MonoBehaviour:
     - {fileID: 650022042}
     - {fileID: 1774223120}
     - {fileID: 949601687}
-    - {fileID: 2120547416}
+    - {fileID: 0}
     - {fileID: 691770972}
     - {fileID: 1204679628}
     - {fileID: 2146520367}
@@ -42384,7 +42384,6 @@ Transform:
   - {fileID: 2033077395}
   - {fileID: 949601688}
   - {fileID: 1774223121}
-  - {fileID: 2120547417}
   m_Father: {fileID: 45255634}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -45644,7 +45643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Human","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CurrentPlayer","value":null,"$version":"A"},{"name":"HumanUI","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AIUI","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Human","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AI","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CurrentPlayer","value":null,"$version":"A"},{"name":"HumanUI","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AIUI","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BuffPool","value":{"$type":"Ludiq.AotDictionary"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1454196681}
     - {fileID: 1439703376}
@@ -53891,69 +53890,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &2120547416
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2120547417}
-  - component: {fileID: 2120547419}
-  - component: {fileID: 2120547418}
-  m_Layer: 0
-  m_Name: BuffState
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2120547417
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120547416}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1668764052}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2120547418
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120547416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1999370065, guid: dcd2196c4e9166f499793f2007fcda35, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 12ac428bcd46cae48b07b058c95f2e62, type: 2}
---- !u!114 &2120547419
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120547416}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -1465209106, guid: c8d0ad23af520fe46aabe2b1fecf6462, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _data:
-    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
 --- !u!43 &2127616876
 Mesh:
   m_ObjectHideFlags: 0

@@ -32,8 +32,10 @@ MonoBehaviour:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
     - ootii
+    - Sirenix.OdinInspector.CompatibilityLayer
     - ootii.Demos
     - ootii.Editor
+    - Sirenix.OdinInspector.CompatibilityLayer.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

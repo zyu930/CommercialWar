@@ -1,10 +1,12 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 namespace TBSGame.Cards
 {
-	[CreateAssetMenu(menuName = ("TBSGame/Cards/Effect Card"))]
+
+    [CreateAssetMenu(menuName = ("TBSGame/Cards/Effect Card"))]
 	public class EffectCard : Card, IContinued
 	{
 		public enum EffectType
@@ -23,10 +25,12 @@ namespace TBSGame.Cards
 		public FlagType flagType = FlagType.Enemy;
 		
 		public int Value = 0;
-		
-		public int GetContinuedRound()
+
+        [EnableIf("effectType", EffectType.AddRange)]
+        public int ContinuedRound = 0;
+        public int GetContinuedRound()
 		{
-			int continuedRound = 0;
+			int continuedRound = ContinuedRound;
 			switch(effectType)
 			{
 			case EffectType.AddRange:

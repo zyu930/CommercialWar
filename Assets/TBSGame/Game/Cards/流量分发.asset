@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78134b7db70027e499b371c46e054752, type: 3}
+  m_Name: "\u6D41\u91CF\u5206\u53D1"
+  m_EditorClassIdentifier: 
+  CardType: 3
+  ActionExpend: 4
+  Title: "\u6D41\u91CF\u5206\u53D1"
+  Description: "\u8282\u70B9\u653E\u7F6E\u8303\u56F4\u548C\u653B\u51FB\u8303\u56F4\u90FD\u589E\u52A01\u683C\uFF0C\u6301\u7EED3\u56DE\u5408"
+  effectType: 0
+  flagType: 1
+  Value: 1
+  ContinuedRound: 3

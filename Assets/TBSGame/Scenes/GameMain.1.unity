@@ -205,7 +205,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751813219}
   m_HandleRect: {fileID: 751813218}
   m_Direction: 2
-  m_Value: 0.99999946
+  m_Value: 1
   m_Size: 0.88162524
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -25789,6 +25789,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2021799839}
     m_Modifications:
+    - target: {fileID: 1415279077012494651, guid: d594ac70dc552ea41a70e8e7217d06d9,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 2096479965858845539, guid: d594ac70dc552ea41a70e8e7217d06d9,
         type: 3}
       propertyPath: m_Mesh
@@ -34058,7 +34063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"MapState","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameState","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TurnState","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SkillState","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BuffState","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CardCtrl","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TwiceCtrl","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HumanUI","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AIUI","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"NoneCard","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameData","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Database","value":null,"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"LockCell","value":null,"$version":"A"},{"name":"CardTakeType","value":{"$content":"CBCore","$type":"GameLink+CardTakeType"},"$version":"A"},{"name":"TurnType","value":{"$content":"Human","$type":"GameLink+TurnType"},"$version":"A"},{"name":"TwiceType","value":{"$content":"NodePlacement","$type":"GameLink+TwiceType"},"$version":"A"},{"name":"LogScreenTextFlow","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"MapState","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameState","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TurnState","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SkillState","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BuffState","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"CardCtrl","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TwiceCtrl","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"HumanUI","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AIUI","value":{"$content":8,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"NoneCard","value":{"$content":9,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"GameData","value":{"$content":10,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Database","value":null,"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"LockCell","value":null,"$version":"A"},{"name":"CardTakeType","value":{"$content":"CBCore","$type":"GameLink+CardTakeType"},"$version":"A"},{"name":"TurnType","value":{"$content":"Human","$type":"GameLink+TurnType"},"$version":"A"},{"name":"TwiceType","value":{"$content":"NodePlacement","$type":"GameLink+TwiceType"},"$version":"A"},{"name":"LogScreenTextFlow","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"GameConst","value":{"$content":[{"Key":{"$content":"\u5f71\u54cd\u8303\u56f4\u52a0\u6210","$type":"System.String"},"Value":{"$content":1,"$type":"System.Int32"}}],"$type":"Ludiq.AotDictionary"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2033077394}
     - {fileID: 650022042}
@@ -50934,7 +50939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"Human_Start_Pos","value":{"$content":[{"x":-3.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":-3.0,"y":1.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":-1.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":1.0,"$type":"UnityEngine.Vector2"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"AI_Start_Pos","value":{"$content":[{"x":3.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":3.0,"y":1.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":-1.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":1.0,"$type":"UnityEngine.Vector2"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Human_Start_Cell","value":null,"$version":"A"},{"name":"AI_Start_Cell","value":null,"$version":"A"},{"name":"\u8282\u70b9\u603b\u8303\u56f4\u5217\u8868","value":null,"$version":"A"},{"name":"\u8282\u70b9\u79fb\u52a8\u8303\u56f4\u5217\u8868","value":null,"$version":"A"},{"name":"\u8282\u70b9\u654c\u5bf9\u5217\u8868","value":null,"$version":"A"},{"name":"\u5f71\u54cd\u8303\u56f4\u52a0\u6210","value":{"$content":2,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"Human_Start_Pos","value":{"$content":[{"x":-3.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":-3.0,"y":1.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":-1.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":-4.0,"y":1.0,"$type":"UnityEngine.Vector2"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"AI_Start_Pos","value":{"$content":[{"x":3.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":3.0,"y":1.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":-1.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":0.0,"$type":"UnityEngine.Vector2"},{"x":4.0,"y":1.0,"$type":"UnityEngine.Vector2"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Human_Start_Cell","value":null,"$version":"A"},{"name":"AI_Start_Cell","value":null,"$version":"A"},{"name":"\u8282\u70b9\u603b\u8303\u56f4\u5217\u8868","value":null,"$version":"A"},{"name":"\u8282\u70b9\u79fb\u52a8\u8303\u56f4\u5217\u8868","value":null,"$version":"A"},{"name":"\u8282\u70b9\u654c\u5bf9\u5217\u8868","value":null,"$version":"A"},{"name":"\u5f71\u54cd\u8303\u56f4\u52a0\u6210","value":{"$content":1,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1001 &2040454237
 PrefabInstance:

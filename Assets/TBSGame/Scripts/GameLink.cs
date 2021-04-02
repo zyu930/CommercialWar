@@ -27,7 +27,8 @@ public class GameLink : MonoBehaviour
 		None,
 		Node,
 		DBNode,
-		CBCore
+		CBCore,
+		Resource
 	}
 	
 	public enum TwiceType

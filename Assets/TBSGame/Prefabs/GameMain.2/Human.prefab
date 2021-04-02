@@ -46,15 +46,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: a411444591241b340ac970fed063fdab, type: 2}
-    - {fileID: 11400000, guid: 441ede1bd62f38e4185c9cf83a9ba5c2, type: 2}
-    - {fileID: 11400000, guid: 811f231d7e1bff14ebedea163d0e1caa, type: 2}
-    - {fileID: 11400000, guid: 5b59e5c96e2ea8c43bb77f28dfb5bad0, type: 2}
-    - {fileID: 11400000, guid: 2de5c2c7d3dfd2242b579a4a4123cf59, type: 2}
-    - {fileID: 11400000, guid: 33f6d782988de6d499bd9f590089c0fe, type: 2}
-    - {fileID: 11400000, guid: a14e4d0669c7808409dbc59c0ee0e1f8, type: 2}
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!114 &1046348291755583262
 MonoBehaviour:
   m_ObjectHideFlags: 0

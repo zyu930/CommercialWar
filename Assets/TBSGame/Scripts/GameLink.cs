@@ -45,6 +45,12 @@ public class GameLink : MonoBehaviour
 		Graph
 	}
 	
+	public enum AffectOrEffect
+	{
+		Affect,
+		Effect
+	}
+	
 	public CellGrid cg;
 	
     // Start is called before the first frame update

@@ -1301,7 +1301,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"txt","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Highlight","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Status","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8282\u70b9","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u5360\u9886\u8005","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"txt","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Highlight","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Status","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8282\u70b9","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u5360\u9886\u8005","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"AffectOrEffect","value":{"$content":"Effect","$type":"GameLink+AffectOrEffect"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 6690065085054464332}
     - {fileID: 5655845907551572652}

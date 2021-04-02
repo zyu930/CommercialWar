@@ -71,3 +71,6 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Export/
 Assets/Plugins/Sirenix/Demos/
+Assets/NIT/
+Project Planner/
+Assets/NIT.meta

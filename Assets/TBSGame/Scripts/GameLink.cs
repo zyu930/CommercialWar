@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using TbsFramework.Grid;
+using TBSGame;
 
 public class GameLink : MonoBehaviour
 {
@@ -66,10 +67,4 @@ public class GameLink : MonoBehaviour
 	{
 		Bolt.CustomEvent.Trigger(Bolt.Variables.ActiveScene.Get("GameState") as GameObject, "OnLevelLoadingDone");
 	}
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

@@ -1,9 +1,13 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TBSGame;
 
 public class BoltLink
 {
+	// EasySave 专用
+	
 	static string databse_file_name = "database";
 	
 	public static void ES3_Save_Vec3(string n, Vector3 v)

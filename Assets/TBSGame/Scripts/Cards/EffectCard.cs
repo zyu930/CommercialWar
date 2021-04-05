@@ -7,7 +7,7 @@ namespace TBSGame.Cards
 {
 
     [CreateAssetMenu(menuName = ("TBSGame/Cards/Effect Card"))]
-	public class EffectCard : Card, IContinued
+	public class EffectCard : Card, IContinued, IModifyDurable
 	{
 		public enum EffectType
 		{
@@ -52,6 +52,15 @@ namespace TBSGame.Cards
 				break;
 			}
 			return continuedRound;
+		}
+		
+		public float GetAffectValue()
+		{
+			return 0f;
+		}
+		public float GetEffectValue()
+		{
+			return Value;
 		}
 	}
 }

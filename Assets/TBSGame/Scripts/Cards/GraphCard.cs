@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace TBSGame.Cards
 {
 	[CreateAssetMenu(menuName = ("TBSGame/Cards/Graph Card"))]
-	public class GraphCard : Card
+	public class GraphCard : Card, IModifyDurable
     {
         public enum EffectType
         {
@@ -28,5 +28,13 @@ namespace TBSGame.Cards
         [DetailedInfoBox("效果值...", "对承受者的影响数值。")]
         public float effectValue = 0f;
 
+	    public float GetAffectValue()
+	    {
+		    return affectValue;
+	    }
+	    public float GetEffectValue()
+	    {
+		    return effectValue;
+	    }
 	}
 }

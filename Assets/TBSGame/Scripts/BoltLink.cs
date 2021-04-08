@@ -33,4 +33,9 @@ public class BoltLink
 	{
 		ES3.Save(n, arr);
 	}
+	
+	// Unity 内置
+	public static readonly Vector3[] Hex_6_Directions =  {
+		new Vector3(+1, -1, 0), new Vector3(+1, 0, -1), new Vector3(0, +1, -1),
+		new Vector3(-1, +1, 0), new Vector3(-1, 0, +1), new Vector3(0, -1, +1)};
 }

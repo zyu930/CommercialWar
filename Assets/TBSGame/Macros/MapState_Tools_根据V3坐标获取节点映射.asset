@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: "MapState_Tools_\u6839\u636EV3\u5750\u6807\u83B7\u53D6\u8282\u70B9\u6620\u5C04"
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"Input","label":null,"summary":null,"hideLabel":false}],"controlOutputDefinitions":[{"key":"Output","label":null,"summary":null,"hideLabel":false}],"valueInputDefinitions":[{"hasDefaultValue":false,"defaultValue":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"_type":"UnityEngine.Vector3","key":"CubeCoord","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[{"_type":"TBSGame.MyHexagon2","key":"Cell","label":null,"summary":null,"hideLabel":false}],"title":null,"summary":null,"pan":{"x":-24.0,"y":-60.0},"zoom":1.0,"elements":[{"defaultValues":{},"position":{"x":-477.0,"y":-109.0},"guid":"72d7d236-d771-4956-aec5-b859093edd75","$version":"A","$type":"Bolt.GraphInput","$id":"13"},{"defaultValues":{},"position":{"x":263.0,"y":-108.0},"guid":"e587961c-7948-4cff-b89b-385523df9a6e","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"MapState","$type":"System.String"}},"position":{"x":-323.0,"y":-36.0},"guid":"68ed0825-eef7-49d2-9b6e-3f6c3d5bf195","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"\u5730\u5757\u5750\u6807\u6620\u5c041","$type":"System.String"},"object":null},"position":{"x":-130.0,"y":-96.0},"guid":"8a579a03-2f99-46d9-adcc-9319549973bd","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"defaultValues":{},"position":{"x":85.0,"y":28.0},"guid":"c41e7996-74e7-48ed-8671-1a5b657c67c1","$version":"A","$type":"Bolt.GetDictionaryItem","$id":"21"},{"sourceUnit":{"$ref":"13"},"sourceKey":"Input","destinationUnit":{"$ref":"15"},"destinationKey":"Output","guid":"b48efb41-9cb0-4abe-aec9-f6b0ab73cd3d","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"19"},"destinationKey":"object","guid":"c72de59e-7de2-49e6-879c-c5dc58151af8","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"21"},"destinationKey":"dictionary","guid":"bc94ba00-7dec-4e09-9d7a-47dc574b0eac","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"21"},"sourceKey":"value","destinationUnit":{"$ref":"15"},"destinationKey":"Cell","guid":"6f4d3522-5c81-46a9-b169-dc4655d951e2","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"CubeCoord","destinationUnit":{"$ref":"21"},"destinationKey":"key","guid":"b1c3ea48-6d1d-407c-9828-2f9811396113","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []

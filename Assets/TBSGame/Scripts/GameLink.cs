@@ -38,7 +38,8 @@ public class GameLink : MonoBehaviour
 		NodePlacement,
 		SkillTrigger,
 		GraphTrigger,
-		NodeSelfSkill
+		NodeSelfSkillFirst,
+		NodeSelfSkillLast
 	}
 	
 	public enum AIBehaviorType

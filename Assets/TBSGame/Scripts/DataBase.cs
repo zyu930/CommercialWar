@@ -45,6 +45,21 @@ public class DataBase
 		}
 		return null;
 	}
+	public List<SkillData> getSkillDataByNamePrefix(string prefix)
+	{
+		List<SkillData> sds = new List<SkillData>();
+		if (sds != null && sds.Count > 0 && prefix != null)
+		{
+			foreach(var item in sds)
+			{
+				if (item.skillName.Split('_')[0] == prefix)
+				{
+					sds.Add(item);
+				}
+			}
+		}
+		return sds;
+	}
 	public SkillData getSkillDataByGraph(List<Vector3> items)
 	{
 		if (sds != null && sds.Count > 0 && items != null)

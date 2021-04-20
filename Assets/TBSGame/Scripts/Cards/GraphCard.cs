@@ -19,7 +19,8 @@ namespace TBSGame.Cards
             Friend
         }
         [Title("标准属性")]
-        public string SkillName;
+	    public string SkillName;
+	    public string SkillPrefix;
         public EffectType effectType = EffectType.LoseDurable;
         public FlagType flagType = FlagType.Enemy;
 

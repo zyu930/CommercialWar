@@ -273,7 +273,7 @@ MonoBehaviour:
   m_BlockingObjects: 0
   m_BlockingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
 --- !u!1 &5655845907551572652
 GameObject:
   m_ObjectHideFlags: 0
@@ -2376,6 +2376,11 @@ PrefabInstance:
         type: 3}
       propertyPath: mainRenderableMesh
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8480269468196146157, guid: 0465ca09ffe367a4780818b72a595c6d,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0465ca09ffe367a4780818b72a595c6d, type: 3}

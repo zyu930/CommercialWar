@@ -9,11 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f4f4e45eb0733347a4f0126e99df2ee, type: 3}
+  m_Script: {fileID: 11500000, guid: d91661e6a1b5594449debf7a96e6be0b, type: 3}
   m_Name: "\u8FED\u4EE3"
   m_EditorClassIdentifier: 
-  CardType: 1
-  ActionExpend: 1
-  Title: "\u8FED\u4EE31"
-  Description: "\u653E\u7F6E\u4E00\u4E2A\u8010\u4E45\u5EA6\u4E3A3\u7684\u65B0\u8282\u70B9"
-  Durable: 3
+  CardType: 4
+  ActionExpend: 0
+  Title: "\u8FED\u4EE3"
+  Description: "\u9020\u62103\u70B9\u4F24\u5BB3\uFF0C\u8282\u70B9\u8010\u4E45-1"
+  SkillName: 
+  SkillPrefix: "\u8FED\u4EE3"
+  effectType: 0
+  flagType: 2
+  affectValue: 0
+  effectValue: 2

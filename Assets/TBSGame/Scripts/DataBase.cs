@@ -47,21 +47,22 @@ public class DataBase
 	}
 	public List<SkillData> getSkillDataByNamePrefix(string prefix)
 	{
-		List<SkillData> sds = new List<SkillData>();
+		List<SkillData> lst = new List<SkillData>();
 		if (sds != null && sds.Count > 0 && prefix != null)
 		{
 			foreach(var item in sds)
 			{
 				if (item.skillName.Split('_')[0] == prefix)
 				{
-					sds.Add(item);
+					lst.Add(item);
 				}
 			}
 		}
-		return sds;
+		return lst;
 	}
-	public SkillData getSkillDataByGraph(List<Vector3> items)
+	public List<SkillData> getSkillDataByGraph(List<Vector3> items)
 	{
+		List<SkillData> lst = new List<SkillData>();
 		if (sds != null && sds.Count > 0 && items != null)
 		{
 			foreach(var item in sds)
@@ -74,19 +75,46 @@ public class DataBase
 						if (item.graphs[i] != items[i])
 						{
 							check = false;
-                            goto checkGraph;
-                        }
+							goto checkGraph;
+						}
 					}
-                    checkGraph:
-                    if (check)
+					checkGraph:
+					if (check)
 					{
-						return item;
+						lst.Add(item);
 					}
 				}
 			}
 		}
-		return null;
+		return lst;
 	}
+	//public SkillData getSkillDataByGraph(List<Vector3> items)
+	//{
+	//	if (sds != null && sds.Count > 0 && items != null)
+	//	{
+	//		foreach(var item in sds)
+	//		{
+	//			if (item.graphs.Count == items.Count)
+	//			{
+	//				bool check = true;
+	//				for (int i = 0, len = item.graphs.Count; i < len; i++)
+	//				{
+	//					if (item.graphs[i] != items[i])
+	//					{
+	//						check = false;
+    //                        goto checkGraph;
+    //                    }
+	//				}
+    //                checkGraph:
+    //                if (check)
+	//				{
+	//					return item;
+	//				}
+	//			}
+	//		}
+	//	}
+	//	return null;
+	//}
 	public DataBase Save()
 	{
 		ES3.Save<DataBase>("database", this);

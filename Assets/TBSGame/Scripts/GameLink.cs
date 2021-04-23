@@ -55,18 +55,24 @@ public class GameLink : MonoBehaviour
 		Effect
 	}
 	
-	public CellGrid cg;
+	public TBSGame.CellGrid cg;
+	
+	private bool isInit;
 	
     // Start is called before the first frame update
     void Start()
     {
-	    cg = GameObject.FindObjectOfType<CellGrid>();
-	    
-	    cg.LevelLoadingDone += OnLevelLoadingDone;
+	    cg = GameObject.FindObjectOfType<TBSGame.CellGrid>();
     }
-    
-	void OnLevelLoadingDone(object sender, EventArgs e)
+	void Update()
 	{
-		Bolt.CustomEvent.Trigger(Bolt.Variables.ActiveScene.Get("GameState") as GameObject, "OnLevelLoadingDone");
+		if(!isInit)
+		{
+			if(cg.isLoaded)
+			{
+				Bolt.CustomEvent.Trigger(Bolt.Variables.ActiveScene.Get("GameState") as GameObject, "OnLevelLoadingDone");
+				isInit = true;
+			}
+		}
 	}
 }

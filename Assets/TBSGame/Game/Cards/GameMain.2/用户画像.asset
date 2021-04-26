@@ -20,5 +20,7 @@ MonoBehaviour:
   SkillPrefix: "\u7528\u6237\u753B\u50CF"
   effectType: 0
   flagType: 0
+  extraType: 1
   affectValue: 2
   effectValue: 3
+  addNodeCount: 1

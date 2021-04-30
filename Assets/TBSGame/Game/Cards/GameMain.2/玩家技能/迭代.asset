@@ -15,10 +15,12 @@ MonoBehaviour:
   CardType: 4
   ActionExpend: 0
   Title: "\u8FED\u4EE3"
-  Description: "\u9020\u62103\u70B9\u4F24\u5BB3\uFF0C\u8282\u70B9\u8010\u4E45-1"
+  Description: "\u672C\u56DE\u5408\u8282\u70B9\u8010\u4E45+2"
   SkillName: 
   SkillPrefix: "\u8FED\u4EE3"
   effectType: 0
   flagType: 2
+  extraType: 0
   affectValue: 0
   effectValue: 2
+  addNodeCount: 0

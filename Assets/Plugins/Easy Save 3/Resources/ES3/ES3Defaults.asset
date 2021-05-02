@@ -31,12 +31,12 @@ MonoBehaviour:
     assemblyNames:
     - Assembly-CSharp
     - Assembly-CSharp-firstpass
+    - ootii.Demos
     - ootii
     - Sirenix.OdinInspector.CompatibilityLayer
-    - ootii.Demos
     - ScriptInspector
-    - ootii.Editor
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
+    - ootii.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

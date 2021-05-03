@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/TBSGame/Scenes/GameMain.2.unity
+    guid: 07a028e1ec345c64ca57ca614ca97273
   m_configObjects: {}

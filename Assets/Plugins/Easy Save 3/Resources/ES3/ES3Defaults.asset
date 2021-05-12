@@ -34,6 +34,7 @@ MonoBehaviour:
     - ootii.Demos
     - ootii
     - Sirenix.OdinInspector.CompatibilityLayer
+    - ScriptInspector
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
     - ootii.Editor
     showAdvancedSettings: 0

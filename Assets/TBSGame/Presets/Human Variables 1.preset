@@ -27,11 +27,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._json
-    value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":3,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"Profile","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.size
-    value: 7
+    value: 8
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.data[0]
@@ -61,4 +61,7 @@ Preset:
     propertyPath: _data._objectReferences.Array.data[6]
     value: 
     objectReference: {fileID: 11400000, guid: 33eb5b97e0ba9b04fb9f403e31ece249, type: 2}
-  m_ExcludedProperties: []
+  - target: {fileID: 0}
+    propertyPath: _data._objectReferences.Array.data[7]
+    value: 
+    objectReference: {fileID: 0}

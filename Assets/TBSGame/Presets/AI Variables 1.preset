@@ -27,11 +27,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._json
-    value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"ActionMax","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"AIBehaviorType","value":null,"$version":"A"},{"name":"BehaviorNotPass","value":null,"$version":"A"},{"name":"SkillNodesMapping","value":null,"$version":"A"},{"name":"CurrentMove","value":null,"$version":"A"},{"name":"TurnCards","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    value: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[{"$content":0,"$type":"UnityEngine.Object"},{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"}],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"ActionMax","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"AIBehaviorType","value":null,"$version":"A"},{"name":"BehaviorNotPass","value":null,"$version":"A"},{"name":"SkillNodesMapping","value":null,"$version":"A"},{"name":"CurrentMove","value":null,"$version":"A"},{"name":"TurnCards","value":null,"$version":"A"},{"name":"Profile","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.size
-    value: 6
+    value: 7
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.data[0]
@@ -48,7 +48,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.data[3]
     value: 
-    objectReference: {fileID: 11400000, guid: a241037f47733314f9c73f907cd8c9e9, type: 2}
+    objectReference: {fileID: 11400000, guid: 46ac17e676ce57043b3ab88b6b23a053, type: 2}
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.data[4]
     value: 
@@ -56,5 +56,8 @@ Preset:
   - target: {fileID: 0}
     propertyPath: _data._objectReferences.Array.data[5]
     value: 
-    objectReference: {fileID: 11400000, guid: 46ac17e676ce57043b3ab88b6b23a053, type: 2}
-  m_ExcludedProperties: []
+    objectReference: {fileID: 11400000, guid: 4f702bd903e6d1b46a33e291c94317bb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: _data._objectReferences.Array.data[6]
+    value: 
+    objectReference: {fileID: 0}

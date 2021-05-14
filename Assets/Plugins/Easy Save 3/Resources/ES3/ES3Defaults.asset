@@ -36,8 +36,8 @@ MonoBehaviour:
     - Sirenix.OdinInspector.CompatibilityLayer
     - ScriptInspector
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
-    - ootii.Editor
     - AssetUsageFinder
+    - ootii.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

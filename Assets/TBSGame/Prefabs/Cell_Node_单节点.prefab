@@ -82,7 +82,6 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
 --- !u!114 &8115113164149037280
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -161,11 +160,11 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 16
@@ -253,8 +252,6 @@ MeshRenderer:
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -279,7 +276,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!135 &4228345863057904578
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -306,7 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u590d\u5236\u8282\u70b9\u6570\u636e","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":null,"$version":"A"},{"name":"\u5f52\u5c5e\u8005ID","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u590d\u5236\u8282\u70b9\u6570\u636e","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 73425439425178450}
 --- !u!114 &3103706412371226439

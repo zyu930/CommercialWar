@@ -145,11 +145,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340321796101504653}
     m_Modifications:
-    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 5686584960034646830, guid: 6837eba6b47f39a42b23a681198670b7,
         type: 3}
       propertyPath: m_Name
@@ -236,11 +231,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6235834387750397657}
     m_Modifications:
-    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":{"$content":"Human","$type":"GameLink+TurnType"},"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 5686584960034646830, guid: 6837eba6b47f39a42b23a681198670b7,
         type: 3}
       propertyPath: m_Name
@@ -311,6 +301,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":{"$content":"Human","$type":"GameLink+TurnType"},"$version":"A"},{"name":"\u5f52\u5c5e\u8005ID","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u590d\u5236\u8282\u70b9\u6570\u636e","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6837eba6b47f39a42b23a681198670b7, type: 3}
 --- !u!1 &4964066773967754720 stripped
@@ -332,16 +327,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340321796101504653}
     m_Modifications:
-    - target: {fileID: 3432584636999761751, guid: d243ac531f239f744b489b1410cdc60a,
-        type: 3}
-      propertyPath: mainRenderableMesh
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4522720999881970049, guid: d243ac531f239f744b489b1410cdc60a,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 3213c8aacd287004690c4b08729a618a, type: 2}
     - target: {fileID: 4528524968596484210, guid: d243ac531f239f744b489b1410cdc60a,
         type: 3}
       propertyPath: m_Name
@@ -417,6 +402,16 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 3432584636999761751, guid: d243ac531f239f744b489b1410cdc60a,
+        type: 3}
+      propertyPath: mainRenderableMesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4522720999881970049, guid: d243ac531f239f744b489b1410cdc60a,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3213c8aacd287004690c4b08729a618a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d243ac531f239f744b489b1410cdc60a, type: 3}
 --- !u!1 &8480269468196146157 stripped
@@ -438,10 +433,15 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1340321796101504653}
     m_Modifications:
-    - target: {fileID: 391978912198556719, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+    - target: {fileID: 7912875439714231066, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
         type: 3}
-      propertyPath: m_BlockingMask.m_Bits
-      value: 55
+      propertyPath: m_Name
+      value: "\u6838\u5FC3"
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912875439714231066, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1268812087150537783, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
         type: 3}
@@ -498,15 +498,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7912875439714231066, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+    - target: {fileID: 391978912198556719, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
         type: 3}
-      propertyPath: m_Name
-      value: "\u6838\u5FC3"
-      objectReference: {fileID: 0}
-    - target: {fileID: 7912875439714231066, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
+      propertyPath: m_BlockingMask.m_Bits
+      value: 55
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09f752f623dfe943a6c93ce9d8a5cc8, type: 3}
@@ -529,11 +524,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6235834387750397657}
     m_Modifications:
-    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
-        type: 3}
-      propertyPath: _data._json
-      value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":{"$content":"AI","$type":"GameLink+TurnType"},"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-      objectReference: {fileID: 0}
     - target: {fileID: 5686584960034646830, guid: 6837eba6b47f39a42b23a681198670b7,
         type: 3}
       propertyPath: m_Name
@@ -603,6 +593,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
+        type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":{"$content":"AI","$type":"GameLink+TurnType"},"$version":"A"},{"name":"\u5f52\u5c5e\u8005ID","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u590d\u5236\u8282\u70b9\u6570\u636e","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6837eba6b47f39a42b23a681198670b7, type: 3}

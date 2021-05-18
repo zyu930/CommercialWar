@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Simple Hit 1
   m_EditorClassIdentifier: 
   affectValue: 0
-  effectValue: 1
+  effectValue: 1000

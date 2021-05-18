@@ -29,14 +29,12 @@ MonoBehaviour:
     referenceMode: 2
     serializationDepthLimit: 64
     assemblyNames:
-    - Assembly-CSharp-firstpass
     - Assembly-CSharp
+    - Assembly-CSharp-firstpass
     - ootii.Demos
     - ootii
     - Sirenix.OdinInspector.CompatibilityLayer
-    - ScriptInspector
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
-    - AssetUsageFinder
     - ootii.Editor
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0

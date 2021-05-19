@@ -34,10 +34,10 @@ MonoBehaviour:
     - ootii.Demos
     - ootii
     - Sirenix.OdinInspector.CompatibilityLayer
-    - ScriptInspector
     - Sirenix.OdinInspector.CompatibilityLayer.Editor
-    - AssetUsageFinder
     - ootii.Editor
+    - ScriptInspector
+    - AssetUsageFinder
     showAdvancedSettings: 0
   addMgrToSceneAutomatically: 0
   autoUpdateReferences: 1

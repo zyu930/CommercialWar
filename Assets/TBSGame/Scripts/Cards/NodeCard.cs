@@ -16,5 +16,10 @@ namespace TBSGame.Cards
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值
 		public NodeType NType = NodeType.Code;
+		
+		override public GameLink.CardTakeType CardType
+		{
+			get {return GameLink.CardTakeType.Node;}
+		}
 	}
 }

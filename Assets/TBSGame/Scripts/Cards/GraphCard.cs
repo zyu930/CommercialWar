@@ -51,5 +51,9 @@ namespace TBSGame.Cards
 	    {
 	    	return addNodeCount;
 	    }
+	    override public GameLink.CardTakeType CardType
+	    {
+		    get {return GameLink.CardTakeType.Graph;}
+	    }
 	}
 }

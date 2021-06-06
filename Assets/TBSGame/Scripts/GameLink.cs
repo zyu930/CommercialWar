@@ -55,6 +55,12 @@ public class GameLink : MonoBehaviour
 		Affect,
 		Effect
 	}
+	//无卡技能
+	public enum NoneCardSkill
+	{
+		SelfExplosion, //自爆技能
+		Checkers //跳棋技能
+	}
 	
 	public TBSGame.CellGrid cg;
 	

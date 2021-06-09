@@ -10,8 +10,9 @@ namespace TBSGame.Cards
 	{
 		public enum NodeType
 		{
-			Code,
-			Framework
+			Code, //代码
+			Framework, //架构
+			Core //核心
 		}
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值

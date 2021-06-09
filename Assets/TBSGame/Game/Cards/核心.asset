@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f4f4e45eb0733347a4f0126e99df2ee, type: 3}
   m_Name: "\u6838\u5FC3"
   m_EditorClassIdentifier: 
-  CardType: 2
   ActionExpend: 1
   Title: "\u6838\u5FC3"
   Description: "\u6838\u5FC3\u4E00\u679A"
-  Durable: 1
-  NType: 1
+  Durable: 10
+  NType: 2

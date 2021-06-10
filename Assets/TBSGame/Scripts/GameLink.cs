@@ -61,6 +61,10 @@ public class GameLink : MonoBehaviour
 		SelfExplosion, //自爆技能
 		Checkers //跳棋技能
 	}
+	public enum UnitType
+	{
+		Solider, //兵棋
+	}
 	
 	public TBSGame.CellGrid cg;
 	

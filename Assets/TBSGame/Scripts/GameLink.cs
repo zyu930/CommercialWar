@@ -63,7 +63,14 @@ public class GameLink : MonoBehaviour
 	}
 	public enum UnitType
 	{
-		Solider, //兵棋
+		None, //无单位
+		Solider //兵棋
+	}
+	
+	public enum ClickMode
+	{
+		NodeMode, //节点模式
+		UnitMode //单位模式
 	}
 	
 	public TBSGame.CellGrid cg;

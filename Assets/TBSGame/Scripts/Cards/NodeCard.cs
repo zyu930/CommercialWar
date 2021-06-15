@@ -12,7 +12,8 @@ namespace TBSGame.Cards
 		{
 			Code, //代码
 			Framework, //架构
-			Core //核心
+			Core, //核心
+			Barrier //壁垒
 		}
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值

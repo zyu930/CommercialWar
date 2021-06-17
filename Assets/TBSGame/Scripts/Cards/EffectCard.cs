@@ -13,7 +13,8 @@ namespace TBSGame.Cards
 		{
 			AddRange,
 			LoseDurable,
-            Explosion
+			Explosion,
+			Swap
         }
 		
 		public enum FlagType
@@ -29,13 +30,27 @@ namespace TBSGame.Cards
 		
 		public int Value = 0;
 
-        [Title("动态属性")]
+		[Title("动态属性")]
+        
+		
         [EnableIf("effectType", EffectType.AddRange)]
-        public int ContinuedRound = 0;
+		public int ContinuedRound = 0;
+        
         [DetailedInfoBox("推技能距离...", "发动后，目标格子周围六个方向上的第一格如果另一侧没有节点或争夺目标，则后退一格，否则原地不动。")]
         [EnableIf("effectType", EffectType.Explosion)]
-        public int PushRange = 0;
-
+		public int PushRange = 0;
+		
+		//卡牌交换
+		[EnableIf("effectType", EffectType.Swap)]
+		public Card Origin;
+		[EnableIf("effectType", EffectType.Swap)]
+		public Card Target;
+		[EnableIf("effectType", EffectType.Swap)]
+		public int OriginNum = 1;
+		[EnableIf("effectType", EffectType.Swap)]
+		public int TargetNum = 1;
+		
+		//持续回合		
         public int GetContinuedRound()
 		{
 			int continuedRound = ContinuedRound;
@@ -61,6 +76,10 @@ namespace TBSGame.Cards
 		public float GetEffectValue()
 		{
 			return Value;
+		}
+		override public GameLink.CardTakeType CardType
+		{
+			get {return GameLink.CardTakeType.Skill;}
 		}
 	}
 }

@@ -4,14 +4,14 @@ using UnityEngine;
 
 namespace TBSGame.Cards
 {
-	[CreateAssetMenu(menuName = ("TBSGame/Cards/ComboCard Card"))]
+	[CreateAssetMenu(menuName = ("TBSGame/Cards/Combo Card"))]
 	public class ComboCard : Card
 	{
 		public EffectCard effectCard;
 		
 		override public GameLink.CardTakeType CardType
 		{
-			get {return GameLink.CardTakeType.ComboCard;}
+			get {return GameLink.CardTakeType.Combo;}
 		}
 	}
 }

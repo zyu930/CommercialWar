@@ -21,7 +21,7 @@ public class GameLink : MonoBehaviour
 		CBCore,
 		Skill,
 		Graph,
-		ComboCard
+		Combo
 	}
 	
 	public enum CellType

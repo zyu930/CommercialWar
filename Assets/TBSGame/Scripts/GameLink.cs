@@ -73,6 +73,12 @@ public class GameLink : MonoBehaviour
 		UnitMode //单位模式
 	}
 	
+	public enum TipsType
+	{
+		None,
+		Checkers // 跳棋
+	}
+	
 	public TBSGame.CellGrid cg;
 	
 	private bool isInit;

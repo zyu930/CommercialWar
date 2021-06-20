@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78134b7db70027e499b371c46e054752, type: 3}
+  m_Name: "\u527D\u7A83"
+  m_EditorClassIdentifier: 
+  ActionExpend: 1
+  Title: "\u527D\u7A83"
+  Description: "\u4E0B\u4E00\u6B21\u672C\u56DE\u5408\u5185\u4E0B\u4E00\u6B21\u6D88\u706D\u654C\u65B9\u5355\u4F4D\uFF08\u5175\u68CB/\u67B6\u6784/\u6838\u5FC3\uFF09\u65F6\uFF0C\u6BCF\u6D88\u706D1\u4E2A\u5355\u4F4D\u83B7\u5F971\u4E2A\u521B\u610F"
+  effectType: 4
+  flagType: 0
+  ContinuedRound: 1
+  Value: 0
+  PushRange: 0
+  Origin: {fileID: 0}
+  Target: {fileID: 0}
+  OriginNum: 1
+  TargetNum: 1
+  killNum: 1
+  ideaNum: 1

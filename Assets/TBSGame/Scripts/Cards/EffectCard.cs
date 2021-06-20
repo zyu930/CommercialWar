@@ -11,10 +11,11 @@ namespace TBSGame.Cards
 	{
 		public enum EffectType
 		{
-			AddRange,
-			LoseDurable,
-			Explosion,
-			Swap
+			AddRange, // 增加范围
+			LoseDurable, //失耐久
+			Explosion, //自爆
+			Swap, // 卡牌转换
+			Plagiarism // 剽窃
         }
 		
 		public enum FlagType
@@ -27,28 +28,36 @@ namespace TBSGame.Cards
 
         public EffectType effectType = EffectType.AddRange;
 		public FlagType flagType = FlagType.Enemy;
-		
-		public int Value = 0;
 
 		[Title("动态属性")]
         
 		
-        [EnableIf("effectType", EffectType.AddRange)]
+		[EnableIf("effectType", EffectType.AddRange | EffectType.Plagiarism)]
 		public int ContinuedRound = 0;
+		[EnableIf("effectType", EffectType.AddRange | EffectType.Explosion)]
+		public int Value = 0;
         
         [DetailedInfoBox("推技能距离...", "发动后，目标格子周围六个方向上的第一格如果另一侧没有节点或争夺目标，则后退一格，否则原地不动。")]
         [EnableIf("effectType", EffectType.Explosion)]
 		public int PushRange = 0;
 		
 		//卡牌交换
+		[DetailedInfoBox("卡牌交换...", "")]
 		[EnableIf("effectType", EffectType.Swap)]
-		public Card Origin;
+		public Card Origin; // 预交换的卡牌
 		[EnableIf("effectType", EffectType.Swap)]
-		public Card Target;
+		public Card Target; // 目标卡牌
 		[EnableIf("effectType", EffectType.Swap)]
-		public int OriginNum = 1;
+		public int OriginNum = 1; // 预交换卡牌提供个数
 		[EnableIf("effectType", EffectType.Swap)]
-		public int TargetNum = 1;
+		public int TargetNum = 1; // 目标卡牌生成个数
+		
+		//剽窃
+		[DetailedInfoBox("剽窃...", "")]
+		[EnableIf("effectType", EffectType.Plagiarism)]
+		public int killNum = 1; // 杀死的个数
+		[EnableIf("effectType", EffectType.Plagiarism)]
+		public int ideaNum = 1; // 获取创意个数
 		
 		//持续回合		
         public int GetContinuedRound()

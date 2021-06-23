@@ -10,7 +10,8 @@ namespace TBSGame.Cards
     {
         public enum EffectType
         {
-            LoseDurable
+	        LoseDurable, //伤害
+	        SkillEffect //技能牌
         }
         public enum FlagType
         {
@@ -26,16 +27,24 @@ namespace TBSGame.Cards
         [Title("标准属性")]
 	    public string SkillName;
 	    public string SkillPrefix;
-        public EffectType effectType = EffectType.LoseDurable;
+	    public EffectType effectType = EffectType.LoseDurable;
+        
+	    [Title("动态属性")]
+	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public FlagType flagType = FlagType.Enemy;
+	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public ExtraType extraType = ExtraType.None;
 
+	    [EnableIf("effectType", EffectType.LoseDurable)]
         [DetailedInfoBox("影响值...", "对施法者的影响数值。")]
-        public float affectValue = 0f;
+	    public float affectValue = 0f;
+	    [EnableIf("effectType", EffectType.LoseDurable)]
         [DetailedInfoBox("效果值...", "对承受者的影响数值。")]
 	    public float effectValue = 0f;
 	    
-	    [Title("动态属性")]
+	    [EnableIf("effectType", EffectType.SkillEffect)]
+	    public EffectCard effectCard;
+	    
 	    [EnableIf("extraType", ExtraType.AddNode)]
 	    public int addNodeCount = 0;
 

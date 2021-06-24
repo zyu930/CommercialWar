@@ -50,7 +50,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5355\u8282\u70b9","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u53cc\u8282\u70b9","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u4f20\u64ad\u6838\u5fc3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u4e89\u593a\u8d44\u6e90","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u5f53\u524d\u8282\u70b9\u6570\u91cf","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CellType","value":{"$content":"None","$type":"GameLink+CellType"},"$version":"A"},{"name":"2to1","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u5355\u8282\u70b9","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u53cc\u8282\u70b9","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u4f20\u64ad\u6838\u5fc3","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u4e89\u593a\u8d44\u6e90","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u5f53\u524d\u8282\u70b9\u6570\u91cf","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"CellType","value":{"$content":"None","$type":"GameLink+CellType"},"$version":"A"},{"name":"2to1","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"currentCard","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 5295953474109346463}
     - {fileID: 4999330516526721310}

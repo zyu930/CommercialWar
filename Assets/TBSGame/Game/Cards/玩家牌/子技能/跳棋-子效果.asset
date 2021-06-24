@@ -17,6 +17,12 @@ MonoBehaviour:
   Description: "\u8DF3\u68CB-\u5B50\u6548\u679C"
   effectType: 1
   flagType: 0
-  Value: 1
   ContinuedRound: 0
+  Value: 1
   PushRange: 0
+  Origin: {fileID: 0}
+  Target: {fileID: 0}
+  OriginNum: 1
+  TargetNum: 1
+  killNum: 1
+  ideaNum: 1

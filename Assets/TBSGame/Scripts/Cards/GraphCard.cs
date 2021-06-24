@@ -22,13 +22,15 @@ namespace TBSGame.Cards
 	    public enum ExtraType
 	    {
 	    	None,
-	    	AddNode
+	    	AddNode,
+	    	SwapToCode //替换成代码
 	    }
+	    
         [Title("标准属性")]
 	    public string SkillName;
 	    public string SkillPrefix;
 	    public EffectType effectType = EffectType.LoseDurable;
-        
+	    
 	    [Title("动态属性")]
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public FlagType flagType = FlagType.Enemy;
@@ -43,7 +45,7 @@ namespace TBSGame.Cards
 	    public float effectValue = 0f;
 	    
 	    [EnableIf("effectType", EffectType.SkillEffect)]
-	    public EffectCard effectCard;
+	    public EffectCard[] effectCard;
 	    
 	    [EnableIf("extraType", ExtraType.AddNode)]
 	    public int addNodeCount = 0;

@@ -22,5 +22,6 @@ MonoBehaviour:
   extraType: 0
   affectValue: 0
   effectValue: 0
-  effectCard: {fileID: 11400000, guid: 135c09571bf8b2645814c0d2c56bda86, type: 2}
+  effectCard:
+  - {fileID: 11400000, guid: 135c09571bf8b2645814c0d2c56bda86, type: 2}
   addNodeCount: 0

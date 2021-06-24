@@ -23,6 +23,12 @@ namespace TBSGame.Cards
 			Enemy,
 			Friend
 		}
+		
+		public enum SwapType
+		{
+			Node, //节点
+			Unit //单位
+		}
 
         [Title("标准属性")]
 
@@ -32,9 +38,9 @@ namespace TBSGame.Cards
 		[Title("动态属性")]
         
 		
-		[EnableIf("effectType", EffectType.AddRange | EffectType.Plagiarism)]
+		[EnableIf("@this.effectType == EffectType.AddRange || this.effectType == EffectType.Plagiarism")]
 		public int ContinuedRound = 0;
-		[EnableIf("effectType", EffectType.AddRange | EffectType.Explosion)]
+		[EnableIf("@this.effectType == EffectType.AddRange || this.effectType == EffectType.LoseDurable || this.effectType == EffectType.Explosion")]
 		public int Value = 0;
         
         [DetailedInfoBox("推技能距离...", "发动后，目标格子周围六个方向上的第一格如果另一侧没有节点或争夺目标，则后退一格，否则原地不动。")]
@@ -42,11 +48,14 @@ namespace TBSGame.Cards
 		public int PushRange = 0;
 		
 		//卡牌交换
+		
+		[EnableIf("effectType", EffectType.Swap)]
+		public SwapType swapType = SwapType.Node;
 		[DetailedInfoBox("卡牌交换...", "")]
+		[EnableIf("@this.effectType == EffectType.Swap && this.swapType == SwapType.Node")]
+		public Card Origin = null; // 预交换的卡牌
 		[EnableIf("effectType", EffectType.Swap)]
-		public Card Origin; // 预交换的卡牌
-		[EnableIf("effectType", EffectType.Swap)]
-		public Card Target; // 目标卡牌
+		public Card Target = null; // 目标卡牌
 		[EnableIf("effectType", EffectType.Swap)]
 		public int OriginNum = 1; // 预交换卡牌提供个数
 		[EnableIf("effectType", EffectType.Swap)]

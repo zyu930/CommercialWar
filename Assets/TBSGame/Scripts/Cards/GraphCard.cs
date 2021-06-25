@@ -35,6 +35,13 @@ namespace TBSGame.Cards
 	    public FlagType flagType = FlagType.Enemy;
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public ExtraType extraType = ExtraType.None;
+		
+	    [EnableIf("effectType", EffectType.LoseDurable)]
+	    public bool useSpecialSkillTarget = false;
+	    [EnableIf("@this.useSpecialSkillTarget")]
+	    public GameLink.CardTakeType skillTargetType = GameLink.CardTakeType.Node;
+	    [EnableIf("@this.useSpecialSkillTarget && this.skillTargetType == GameLink.CardTakeType.Node")]
+	    public NodeCard.NodeType skillNodeType = NodeCard.NodeType.Code;
 
 	    [EnableIf("effectType", EffectType.LoseDurable)]
         [DetailedInfoBox("影响值...", "对施法者的影响数值。")]

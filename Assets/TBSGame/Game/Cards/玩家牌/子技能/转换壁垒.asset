@@ -20,8 +20,9 @@ MonoBehaviour:
   ContinuedRound: 0
   Value: 0
   PushRange: 0
-  Origin: {fileID: 11400000, guid: 19286d589c822da42b7d06594a8ea31b, type: 2}
-  Target: {fileID: 11400000, guid: c3f2c1716459c394f874f904f9061ca6, type: 2}
+  swapType: 0
+  OriginCard: {fileID: 11400000, guid: 19286d589c822da42b7d06594a8ea31b, type: 2}
+  TargetCard: {fileID: 11400000, guid: c3f2c1716459c394f874f904f9061ca6, type: 2}
   OriginNum: 1
   TargetNum: 1
   killNum: 1

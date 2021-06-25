@@ -22,8 +22,7 @@ namespace TBSGame.Cards
 	    public enum ExtraType
 	    {
 	    	None,
-	    	AddNode,
-	    	SwapToCode //替换成代码
+	    	AddNode
 	    }
 	    
         [Title("标准属性")]

@@ -51,11 +51,12 @@ namespace TBSGame.Cards
 		
 		[EnableIf("effectType", EffectType.Swap)]
 		public SwapType swapType = SwapType.Node;
+		
 		[DetailedInfoBox("卡牌交换...", "")]
-		[EnableIf("@this.effectType == EffectType.Swap && this.swapType == SwapType.Node")]
-		public Card Origin = null; // 预交换的卡牌
+		[EnableIf("@this.swapType == SwapType.Node && this.effectType == EffectType.Swap")]
+		public Card OriginCard = null; // 预交换的卡牌
 		[EnableIf("effectType", EffectType.Swap)]
-		public Card Target = null; // 目标卡牌
+		public Card TargetCard = null; // 目标卡牌
 		[EnableIf("effectType", EffectType.Swap)]
 		public int OriginNum = 1; // 预交换卡牌提供个数
 		[EnableIf("effectType", EffectType.Swap)]

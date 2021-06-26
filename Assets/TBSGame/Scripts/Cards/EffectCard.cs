@@ -12,14 +12,16 @@ namespace TBSGame.Cards
 		public enum EffectType
 		{
 			AddRange, // 增加范围
-			LoseDurable, //失耐久
-			Explosion, //自爆
+			LoseDurable, // 失耐久
+			Explosion, // 自爆
 			Swap, // 卡牌转换
-			Plagiarism // 剽窃
+			Plagiarism, // 剽窃
+			Recursion // 递归
         }
 		
 		public enum FlagType
 		{
+			Any,
 			Enemy,
 			Friend
 		}
@@ -44,8 +46,11 @@ namespace TBSGame.Cards
 		public int Value = 0;
         
         [DetailedInfoBox("推技能距离...", "发动后，目标格子周围六个方向上的第一格如果另一侧没有节点或争夺目标，则后退一格，否则原地不动。")]
-        [EnableIf("effectType", EffectType.Explosion)]
+        [EnableIf("@this.effectType == EffectType.Explosion || this.effectType == EffectType.Recursion")]
 		public int PushRange = 0;
+		
+		[EnableIf("@this.effectType == EffectType.Explosion")]
+		public bool chooseLaunchPos = true;
 		
 		//卡牌交换
 		

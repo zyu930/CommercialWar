@@ -20,7 +20,7 @@ MonoBehaviour:
   effectType: 0
   flagType: 0
   extraType: 0
-  useSpecialSkillTarget: 0
+  useSpecialSkillTarget: 1
   skillTargetType: 1
   skillNodeType: 0
   affectValue: 0

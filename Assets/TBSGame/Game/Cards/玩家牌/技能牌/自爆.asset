@@ -17,12 +17,13 @@ MonoBehaviour:
   Description: "\u8282\u70B9\u81EA\u6BC1\uFF0C\u5E76\u5BF9\u5468\u56F4\u9020\u6210
     1 \u683C\u6392\u65A5\u653B\u51FB"
   effectType: 2
-  flagType: 1
+  flagType: 2
   ContinuedRound: 0
   Value: -1000
   PushRange: 1
-  Origin: {fileID: 0}
-  Target: {fileID: 0}
+  swapType: 0
+  OriginCard: {fileID: 0}
+  TargetCard: {fileID: 0}
   OriginNum: 1
   TargetNum: 1
   killNum: 1

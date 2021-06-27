@@ -14,11 +14,19 @@ namespace TBSGame.Cards
 			Framework, //架构
 			Core, //核心
 			Barrier, //壁垒
-			Idea //创意
+		//Idea //创意（暂时不需要区分）
+		}
+		
+		public enum ImageType
+		{
+			None, // 使用类型形象
+			Idea // 创意的形象
 		}
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值
 		public NodeType NType = NodeType.Code;
+		public ImageType IType = ImageType.None;
+		public int TurnCount = 0; //在场上的时间，0 是不限时间
 		
 		override public GameLink.CardTakeType CardType
 		{

@@ -16,4 +16,6 @@ MonoBehaviour:
   Title: "\u521B\u610F"
   Description: "\u521B\u610F\u4E00\u679A"
   Durable: 1
-  NType: 4
+  NType: 0
+  IType: 1
+  TurnCount: 1

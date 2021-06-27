@@ -18,9 +18,10 @@ MonoBehaviour:
   SkillName: 
   SkillPrefix: "\u9A87\u5165"
   effectType: 0
+  notSpendCardWhenDeal: 0
   flagType: 0
   extraType: 0
-  useSpecialSkillTarget: 1
+  useSpecialSkillTarget: 0
   skillTargetType: 1
   skillNodeType: 0
   affectValue: 0

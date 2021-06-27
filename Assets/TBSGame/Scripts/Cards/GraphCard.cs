@@ -37,7 +37,7 @@ namespace TBSGame.Cards
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public ExtraType extraType = ExtraType.None;
 		
-	    [DetailedInfoBox("针对特殊的目标...", "")]
+	    [DetailedInfoBox("是否限制目标...", "")]
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public bool useSpecialSkillTarget = false;
 	    [EnableIf("@this.useSpecialSkillTarget")]

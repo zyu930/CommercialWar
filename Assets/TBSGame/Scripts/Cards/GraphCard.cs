@@ -29,6 +29,7 @@ namespace TBSGame.Cards
 	    public string SkillName;
 	    public string SkillPrefix;
 	    public EffectType effectType = EffectType.LoseDurable;
+	    public bool notSpendCardWhenDeal = false;
 	    
 	    [Title("动态属性")]
 	    [EnableIf("effectType", EffectType.LoseDurable)]
@@ -36,6 +37,7 @@ namespace TBSGame.Cards
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public ExtraType extraType = ExtraType.None;
 		
+	    [DetailedInfoBox("针对特殊的目标...", "")]
 	    [EnableIf("effectType", EffectType.LoseDurable)]
 	    public bool useSpecialSkillTarget = false;
 	    [EnableIf("@this.useSpecialSkillTarget")]

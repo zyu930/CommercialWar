@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2704310842186849762}
   - component: {fileID: 3874597210911916828}
   - component: {fileID: 1600140275953853557}
+  - component: {fileID: 2224546841053160338}
   m_Layer: 0
   m_Name: "\u5355\u4F4D"
   m_TagString: Untagged
@@ -65,6 +66,22 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 05e5038bb1b156642acafd099119cd67, type: 2}
+--- !u!114 &2224546841053160338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 575206505998304349}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -57143145, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: c3fb39503c5494443bd74a29e609276a, type: 2}
 --- !u!1 &1572894441740794830
 GameObject:
   m_ObjectHideFlags: 0
@@ -113,7 +130,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"\u6240\u5c5e\u6838\u5fc3","value":null,"$version":"A"},{"name":"UnitCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":2,"$type":"System.Int32"},"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"\u6240\u5c5e\u6838\u5fc3","value":null,"$version":"A"},{"name":"UnitCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ID","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 162902448406455275}
 --- !u!114 &6887286659394008038

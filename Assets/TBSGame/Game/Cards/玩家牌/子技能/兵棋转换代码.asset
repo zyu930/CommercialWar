@@ -16,10 +16,11 @@ MonoBehaviour:
   Title: "\u6784\u5EFA\u58C1\u5792"
   Description: "\u5C061\u679A\u4EE3\u7801\u8F6C\u5316\u4E3A1\u679A\u58C1\u5792 "
   effectType: 3
-  flagType: 0
+  flagType: 1
   ContinuedRound: 0
   Value: 0
   PushRange: 0
+  chooseLaunchPos: 1
   swapType: 1
   OriginCard: {fileID: 0}
   TargetCard: {fileID: 11400000, guid: 19286d589c822da42b7d06594a8ea31b, type: 2}

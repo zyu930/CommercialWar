@@ -21,9 +21,9 @@ MonoBehaviour:
   notSpendCardWhenDeal: 1
   flagType: 0
   extraType: 1
-  useSpecialSkillTarget: 0
+  useSpecialSkillTarget: 1
   skillTargetType: 1
-  skillNodeType: 0
+  skillNodeTypes: 000000000100000002000000
   affectValue: 0
   effectValue: 5
   effectCard: []

@@ -18,8 +18,12 @@ MonoBehaviour:
   SkillName: 
   SkillPrefix: "\u6784\u7B51\u58C1\u5792"
   effectType: 1
+  notSpendCardWhenDeal: 0
   flagType: 1
   extraType: 0
+  useSpecialSkillTarget: 0
+  skillTargetType: 1
+  skillNodeTypes: 000000000100000002000000
   affectValue: 0
   effectValue: 0
   effectCard:

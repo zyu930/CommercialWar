@@ -43,7 +43,7 @@ namespace TBSGame.Cards
 	    [EnableIf("@this.useSpecialSkillTarget")]
 	    public GameLink.CardTakeType skillTargetType = GameLink.CardTakeType.Node;
 	    [EnableIf("@this.useSpecialSkillTarget && this.skillTargetType == GameLink.CardTakeType.Node")]
-	    public NodeCard.NodeType skillNodeType = NodeCard.NodeType.Code;
+	    public NodeCard.NodeType[] skillNodeTypes;
 
 	    [EnableIf("effectType", EffectType.LoseDurable)]
         [DetailedInfoBox("影响值...", "对施法者的影响数值。")]

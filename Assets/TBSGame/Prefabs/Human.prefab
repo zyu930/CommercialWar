@@ -93,7 +93,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"OnceCards","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"Profile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TurnCounts","value":{"$content":0,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CardDatas","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"OnceCards","value":{"$content":[],"$type":"Ludiq.AotList"},"$version":"A"},{"name":"Action","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CurrentCard","value":null,"$version":"A"},{"name":"Profile","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"TurnCounts","value":{"$content":0,"$type":"System.Int32"},"$version":"A"},{"name":"Health","value":{"$content":10,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 201374136811439630}
 --- !u!114 &1046348291755583262

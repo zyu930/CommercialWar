@@ -70,7 +70,8 @@ public class GameLink : MonoBehaviour
 	public enum ClickMode
 	{
 		NodeMode, //节点模式
-		UnitMode //单位模式
+		UnitMode, //单位模式
+		NodeMove // 节点移动模式
 	}
 	
 	public enum TipsType

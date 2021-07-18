@@ -303,6 +303,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
         type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
+        type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"collection":{"$content":[{"name":"\u5f52\u5c5e\u8005\u7c7b\u578b","value":{"$content":"Human","$type":"GameLink+TurnType"},"$version":"A"},{"name":"\u5f52\u5c5e\u8005ID","value":null,"$version":"A"},{"name":"NodeCard","value":null,"$version":"A"},{"name":"\u8010\u4e45\u503c\u6587\u672c","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"\u8010\u4e45\u503c","value":{"$content":-1000,"$type":"System.Int32"},"$version":"A"},{"name":"dirty","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"\u590d\u5236\u8282\u70b9\u6570\u636e","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
@@ -503,6 +508,20 @@ PrefabInstance:
       propertyPath: m_BlockingMask.m_Bits
       value: 55
       objectReference: {fileID: 0}
+    - target: {fileID: 2974672085606423, guid: c09f752f623dfe943a6c93ce9d8a5cc8, type: 3}
+      propertyPath: mainRenderableMesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 31525983078470528, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 180774105989202787, guid: c09f752f623dfe943a6c93ce9d8a5cc8,
+        type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c09f752f623dfe943a6c93ce9d8a5cc8, type: 3}
 --- !u!1 &133120648951757831 stripped
@@ -593,6 +612,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
+        type: 3}
+      propertyPath: _data._objectReferences.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 758836573707037475, guid: 6837eba6b47f39a42b23a681198670b7,
         type: 3}

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f0de8d7aea9ff2c4093ca4abf011bcf2, type: 3}
   m_Name: "\u666E\u901A\u5175"
   m_EditorClassIdentifier: 
-  Title: "\u5355\u4F4D"
-  Description: "\u6211\u662F\u4E00\u4E2A\u5355\u4F4D"
+  Title: "\u666E\u901A\u5175"
+  Description: 
   Durable: 1
+  soldierType: 0

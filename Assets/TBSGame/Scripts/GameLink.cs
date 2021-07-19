@@ -79,6 +79,11 @@ public class GameLink : MonoBehaviour
 		None,
 		Checkers // 跳棋
 	}
+	public enum TurnMode
+	{
+		Move,
+		Attack
+	}
 	
 	public TBSGame.CellGrid cg;
 	

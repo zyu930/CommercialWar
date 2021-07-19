@@ -103,7 +103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7025858634947926983
 Transform:
   m_ObjectHideFlags: 0
@@ -8282,9 +8282,9 @@ MonoBehaviour:
   editMode: 1
   recalculateTangents: 1
   serializedGuid: 
-  assetPath: 
+  assetPath: "Assets/tripolygon/UModeler/MeshAssets/\u8FDC\u7A0B\u5175.asset"
   isInvisibleObject: 0
-  mainRenderableMesh: {fileID: 0}
+  mainRenderableMesh: {fileID: 4300000, guid: e0ffb6beb46c211479191fb918abe6cf, type: 2}
 --- !u!33 &8454649376518876958
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -8292,7 +8292,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 350547429793153991}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: e0ffb6beb46c211479191fb918abe6cf, type: 2}
 --- !u!23 &5693893871679657865
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8344,7 +8344,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: e0ffb6beb46c211479191fb918abe6cf, type: 2}
 --- !u!1 &2882536026712453481
 GameObject:
   m_ObjectHideFlags: 0
@@ -8364,7 +8364,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8930841657826644895
 Transform:
   m_ObjectHideFlags: 0
@@ -16199,9 +16199,9 @@ MonoBehaviour:
   editMode: 1
   recalculateTangents: 1
   serializedGuid: 
-  assetPath: 
+  assetPath: "Assets/tripolygon/UModeler/MeshAssets/\u8F70\u70B8\u5175.asset"
   isInvisibleObject: 0
-  mainRenderableMesh: {fileID: 0}
+  mainRenderableMesh: {fileID: 4300000, guid: 04565e846e6feb644bdc8f099cb4dc88, type: 2}
 --- !u!33 &381820802441452706
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -16209,7 +16209,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2882536026712453481}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 04565e846e6feb644bdc8f099cb4dc88, type: 2}
 --- !u!23 &1596770327806319918
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16261,7 +16261,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 04565e846e6feb644bdc8f099cb4dc88, type: 2}
 --- !u!1 &3320527915407959179
 GameObject:
   m_ObjectHideFlags: 0
@@ -16380,7 +16380,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &5950443965153349498
 Transform:
   m_ObjectHideFlags: 0
@@ -22125,9 +22125,9 @@ MonoBehaviour:
   editMode: 1
   recalculateTangents: 1
   serializedGuid: 
-  assetPath: 
+  assetPath: "Assets/tripolygon/UModeler/MeshAssets/\u5DE8\u4EBA\u5175.asset"
   isInvisibleObject: 0
-  mainRenderableMesh: {fileID: 0}
+  mainRenderableMesh: {fileID: 4300000, guid: 20ace99e684797a408be22e525f329d9, type: 2}
 --- !u!33 &2235414487034084324
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -22135,7 +22135,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4983703321564228028}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 20ace99e684797a408be22e525f329d9, type: 2}
 --- !u!23 &7494407185294303012
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22187,7 +22187,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 20ace99e684797a408be22e525f329d9, type: 2}
 --- !u!1 &5065059140952674659
 GameObject:
   m_ObjectHideFlags: 0
@@ -22358,7 +22358,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &6520483670550724114
 Transform:
   m_ObjectHideFlags: 0
@@ -32659,9 +32659,9 @@ MonoBehaviour:
   editMode: 1
   recalculateTangents: 1
   serializedGuid: 
-  assetPath: 
+  assetPath: "Assets/tripolygon/UModeler/MeshAssets/\u8FD1\u6218\u5175.asset"
   isInvisibleObject: 0
-  mainRenderableMesh: {fileID: 0}
+  mainRenderableMesh: {fileID: 4300000, guid: 9332d6f81adabe842acd4408fc3b6ead, type: 2}
 --- !u!33 &1727245440557702608
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -32669,7 +32669,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7008036341654131182}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 9332d6f81adabe842acd4408fc3b6ead, type: 2}
 --- !u!23 &7287789045195276492
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32721,7 +32721,7 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 9332d6f81adabe842acd4408fc3b6ead, type: 2}
 --- !u!1 &9171720685650525882
 GameObject:
   m_ObjectHideFlags: 0
@@ -32741,7 +32741,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &7252094034463786032
 Transform:
   m_ObjectHideFlags: 0
@@ -38486,9 +38486,9 @@ MonoBehaviour:
   editMode: 1
   recalculateTangents: 1
   serializedGuid: 
-  assetPath: 
+  assetPath: "Assets/tripolygon/UModeler/MeshAssets/\u666E\u901A\u5175.asset"
   isInvisibleObject: 0
-  mainRenderableMesh: {fileID: 0}
+  mainRenderableMesh: {fileID: 4300000, guid: 2585682ac323ae54881aca34b794cdde, type: 2}
 --- !u!33 &5571278792551837021
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -38496,7 +38496,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9171720685650525882}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 2585682ac323ae54881aca34b794cdde, type: 2}
 --- !u!23 &7808577970260102115
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38548,4 +38548,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 0
   m_CookingOptions: 14
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 4300000, guid: 2585682ac323ae54881aca34b794cdde, type: 2}

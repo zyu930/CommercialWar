@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Title: "\u8FD1\u6218\u5175"
   Description: 
-  Durable: 1
+  Durable: 3
   soldierType: 1
+  aggressivity: 2
+  aggressivityRange: 1
+  moveRange: 3

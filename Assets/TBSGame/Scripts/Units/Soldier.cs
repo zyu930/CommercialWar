@@ -20,6 +20,9 @@ namespace TBSGame.Units
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值
 		public SoldierType soldierType = SoldierType.Simple;
+		public int aggressivity = 1;
+		public int aggressivityRange = 1;
+		public int moveRange = 1;
 		
 		override public GameLink.UnitType UnitType
 		{

@@ -17,5 +17,5 @@ MonoBehaviour:
   Durable: 2
   soldierType: 2
   aggressivity: 2
-  aggressivityRange: 0
+  aggressivityRange: 10
   moveRange: 1

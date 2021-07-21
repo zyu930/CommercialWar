@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace TBSGame.Cards
+namespace TBSGame
 {
 	public interface IModifyDurable
 	{

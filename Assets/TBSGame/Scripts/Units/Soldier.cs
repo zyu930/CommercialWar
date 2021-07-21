@@ -6,7 +6,7 @@ using Sirenix.OdinInspector;
 namespace TBSGame.Units
 {
 	[CreateAssetMenu(menuName = ("TBSGame/Units/Soldier"))]
-	public class Soldier : Unit
+	public class Soldier : Unit, IModifyDurable
 	{
 		public enum SoldierType
 		{
@@ -23,6 +23,15 @@ namespace TBSGame.Units
 		public int aggressivity = 1;
 		public int aggressivityRange = 1;
 		public int moveRange = 1;
+		
+		public float GetAffectValue()
+		{
+			return 0;
+		}
+		public float GetEffectValue()
+		{
+			return aggressivity;
+		}
 		
 		override public GameLink.UnitType UnitType
 		{

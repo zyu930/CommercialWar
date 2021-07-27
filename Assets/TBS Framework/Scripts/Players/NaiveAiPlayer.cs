@@ -55,12 +55,12 @@ namespace TbsFramework.Players
                 }//If there is an enemy in range, attack it.
 
                 List<Cell> potentialDestinations = new List<Cell>();
-
+	            //找出所有可以攻击到的有效地块
                 foreach (var enemyUnit in enemyUnits)
                 {
                     potentialDestinations.AddRange(_cellGrid.Cells.FindAll(c => unit.IsCellMovableTo(c) && unit.IsUnitAttackable(enemyUnit, c)));
                 }//Making a list of cells that the unit can attack from.
-
+	            //去除不够行动点数的地块
                 var notInRange = potentialDestinations.FindAll(c => c.GetDistance(unit.Cell) > unit.MovementPoints);
                 potentialDestinations = potentialDestinations.Except(notInRange).ToList();
 
@@ -68,7 +68,7 @@ namespace TbsFramework.Players
                 {
                     potentialDestinations.Add(notInRange.ElementAt(_rnd.Next(0, notInRange.Count - 1)));
                 }
-
+	            //找出最优目标
                 potentialDestinations = potentialDestinations.OrderBy(h => _rnd.Next()).ToList();
                 List<Cell> shortestPath = null;
                 foreach (var potentialDestination in potentialDestinations)
@@ -88,7 +88,7 @@ namespace TbsFramework.Players
                     }
                     yield return 0;
                 }//If there is a path to any cell that the unit can attack from, move there.
-
+	            //如果没有最优目标，尽可能的移动
                 if (shortestPath != null)
                 {
                     foreach (var potentialDestination in shortestPath.Intersect(unit.GetAvailableDestinations(_cellGrid.Cells)).OrderByDescending(h => h.GetDistance(unit.Cell)))
@@ -105,7 +105,7 @@ namespace TbsFramework.Players
                         yield return 0;
                     }
                 }//If the path cost is greater than unit movement points, move as far as possible.
-
+	            //寻找范围内敌人并攻击
                 foreach (var enemyUnit in enemyUnits)
                 {
                     var enemyCell = enemyUnit.Cell;

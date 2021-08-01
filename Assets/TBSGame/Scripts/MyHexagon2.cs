@@ -78,7 +78,11 @@ namespace TBSGame
 		}
 		public void MarkAsReachable2()
 		{
-		    SetColor(hexagonRenderer, Color.yellow);
+			MarkAsReachable2(Color.yellow);
+		}
+		public void MarkAsReachable2(Color col)
+		{
+			SetColor(hexagonRenderer, col);
 		}
 		public void UnMark2()
 		{

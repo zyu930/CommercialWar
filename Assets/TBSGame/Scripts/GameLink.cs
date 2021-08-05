@@ -11,7 +11,8 @@ public class GameLink : MonoBehaviour
 	public enum TurnType
 	{
 		Human,
-		AI
+		AI,
+		Editor
 	}
 	
 	public enum CardTakeType
@@ -21,7 +22,8 @@ public class GameLink : MonoBehaviour
 		CBCore,
 		Skill,
 		Graph,
-		Combo
+		Combo,
+		Unit
 	}
 	
 	public enum CellType
@@ -69,9 +71,10 @@ public class GameLink : MonoBehaviour
 	
 	public enum ClickMode
 	{
-		NodeMode, //节点模式
-		UnitMode, //单位模式
-		NodeMove // 节点移动模式
+		NodeMode, // 节点模式
+		UnitMode, // 单位模式
+		NodeMove, // 节点移动模式
+		EditMode // 编辑器模式
 	}
 	
 	public enum TipsType

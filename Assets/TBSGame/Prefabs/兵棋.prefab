@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 180907807203127146}
   - component: {fileID: 5661300816375880226}
   - component: {fileID: 3785476193208837765}
+  - component: {fileID: 7719178938550684350}
   m_Layer: 0
   m_Name: "\u5175\u68CB"
   m_TagString: Untagged
@@ -84,6 +85,20 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 612b7b6fd350d494d9dd625d20e5f8ff, type: 2}
+--- !u!114 &7719178938550684350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346916295312445962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd3eb90c1752cd54c93bf6ff184dc3cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementPoints: 0
+  cell: {fileID: 0}
 --- !u!1 &350547429793153991
 GameObject:
   m_ObjectHideFlags: 0

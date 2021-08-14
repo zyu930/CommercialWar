@@ -10,6 +10,7 @@ namespace TBSGame
 	public class MyUnit : MonoBehaviour
 	{
 		private static DijkstraPathfinding _pathfinder = new DijkstraPathfinding();
+		private static IPathfinding _fallbackPathfinder = new AStarPathfinding();
 		
 		Dictionary<Cell, List<Cell>> cachedPaths = null;
 		/// <summary>
@@ -107,6 +108,18 @@ namespace TBSGame
 		public virtual bool IsCellTraversable(Cell cell)
 		{
 			return !cell.IsTaken;
+		}
+
+		public List<Cell> FindPath(List<Cell> cells, Cell destination)
+		{
+			if (cachedPaths != null && cachedPaths.ContainsKey(destination))
+			{
+				return cachedPaths[destination];
+			}
+			else
+			{
+				return _fallbackPathfinder.FindPath(GetGraphEdges(cells), Cell, destination);
+			}
 		}
 	}
 }

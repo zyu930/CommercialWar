@@ -10,11 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0f4f4e45eb0733347a4f0126e99df2ee, type: 3}
-  m_Name: "\u67B6\u6784"
+  m_Name: "\u969C\u788D\u7269 1"
   m_EditorClassIdentifier: 
-  CardType: 1
   ActionExpend: 1
-  Title: "\u67B6\u6784"
-  Description: "\u67B6\u6784\u4E00\u679A"
-  Durable: 7
-  NType: 1
+  Title: "\u4E00\u5F20\u5361\u7247"
+  Description: "\u6211\u662F\u4E00\u5F20\u5361\u7247..."
+  Durable: 1
+  NType: 4
+  TurnCount: 0
+  IType: 0
+  aiCore:
+    SpawnTurnCount: 0
+    SpawnCount: 0
+    solider: {fileID: 0}

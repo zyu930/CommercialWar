@@ -23,6 +23,7 @@ namespace TBSGame.Cards
 			Framework, //架构
 			Core, //核心
 			Barrier, //壁垒
+			Obstacle //障碍物
 		//Idea //创意（暂时不需要区分）
 		}
 		
@@ -34,12 +35,13 @@ namespace TBSGame.Cards
 		[Title("标准属性")]
 		public int Durable = 1; //耐久值
 		public NodeType NType = NodeType.Code;
-		public int TurnCount = 0; //在场上的时间，0 是不限时间
 		
 		[Title("动态属性")]
 		
 		[EnableIf("@this.NType == NodeType.Code")]
 		public ImageType IType = ImageType.None;
+		[EnableIf("@this.NType == NodeType.Code")]
+		public int TurnCount = 0; //在场上的时间，0 是不限时间
 		
 		[EnableIf("@this.NType == NodeType.Core")]
 		public AICore aiCore;

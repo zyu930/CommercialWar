@@ -10,6 +10,7 @@ public class GameLink : MonoBehaviour
 {
 	public enum TurnType
 	{
+		None,
 		Human,
 		AI,
 		Editor

@@ -6,6 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/TBSGame/Scenes/GameMain.unity
-    guid: cf7a167cff64aae44a80bf2653f8f40d
+    path: Assets/TBSGame/Scenes/GameMainBigMap.unity
+    guid: bb3d1f39da5162a4e841d304ffc55a15
   m_configObjects: {}

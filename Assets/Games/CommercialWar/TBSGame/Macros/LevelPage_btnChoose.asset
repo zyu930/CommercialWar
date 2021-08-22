@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: LevelPage_btnChoose
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-530.7408,"y":170.6477},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-836.0,"y":-29.0},"guid":"f0efe49f-4a3a-42b8-b20f-1d6625d0bb57","$version":"A","$type":"Bolt.OnButtonClick","$id":"9"},{"argumentCount":1,"defaultValues":{"name":{"$content":"LoadGame","$type":"System.String"},"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-539.0,"y":-46.0},"guid":"642c38cb-05cd-4234-8b47-afa6061c0676","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"11"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"LevelName","$type":"System.String"},"object":null},"position":{"x":-820.0,"y":64.0},"guid":"ac50d65a-a339-4207-aba9-935f048e08f7","$version":"A","$type":"Bolt.GetVariable","$id":"13"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"LevelManager","$type":"System.String"},"object":null},"position":{"x":-829.0,"y":185.0},"guid":"ecb2e1aa-29c6-48aa-b33e-8869cda7dd54","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"11"},"destinationKey":"enter","guid":"48bb1760-dd76-477d-9aee-4cd54cd973f4","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"target","guid":"da7783d1-055d-4554-9a7e-17e956fa2766","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"13"},"sourceKey":"value","destinationUnit":{"$ref":"11"},"destinationKey":"argument_0","guid":"286bba78-46fa-4bb0-aff8-1e16d05dbbdf","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 0}
